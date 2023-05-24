@@ -11,7 +11,7 @@ def translate_text(text):
     translated_text = tokenizer.decode(translated[0], skip_special_tokens=True)
     return translated_text
 
-st.write("""# MarianMT UK to PT""")
+st.write("""# UK to PT""")
 prompt = st.text_input("Введіть текст: ")
 if st.button('Send'): 
     response = translate_text(prompt)
