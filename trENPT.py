@@ -11,8 +11,8 @@ def translate_text(text):
     translated_text = tokenizer.decode(translated[0], skip_special_tokens=True)
     return translated_text
 
-st.write("""# MarianMT Inglês para Português""")
-st.write("""Tradução vectorizada de EN para PT""")
+st.write("""# Inglês para Português""")
+st.write("""Tradução de EN para PT""")
 prompt = st.text_input("Texto em Inglês: ")
 if st.button('Send'): 
     response = translate_text(prompt)
