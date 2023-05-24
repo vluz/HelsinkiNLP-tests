@@ -1,7 +1,7 @@
 # Test translation with Helsinki-NLP and MarianMT
 ### Streamlit is used for gui and hosting
 
-Not tested, do not use in production
+*Not tested, do not use in production*
 
 A couple of small tests done with machine translation.
 <br>
