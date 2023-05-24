@@ -1,4 +1,4 @@
 streamlit==1.22.0
 transformers==4.28.1
-torch
-SentencePiece
+torch==2.0.0
+SentencePiece==0.1.97
