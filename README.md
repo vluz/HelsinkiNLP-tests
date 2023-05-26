@@ -13,6 +13,7 @@ https://tr-en-pt.streamlit.app/
 https://tr-ua-pt.streamlit.app/
 <br>
 *(sometimes the app crashes or goes over the free limit
+<br>
   works without any troubles locally)*
 
 <br>
