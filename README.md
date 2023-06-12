@@ -34,4 +34,5 @@ Then issue `pip install -r requirements.txt` and let it finish
 To run do `streamlit run trUAPT.py`
 <br>or<br>
 `streamlit run trENPT.py`
-It'll open the gui in your browser
+
+It'll open the gui in your default browser
