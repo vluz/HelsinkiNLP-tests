@@ -1,6 +1,8 @@
 # Test translation with Helsinki-NLP and MarianMT
-### Streamlit is used for gui and hosting
 
+<hr>
+
+Streamlit is used for gui and hosting
 *Not tested, do not use in production*
 
 A couple of small tests done with machine translation.
@@ -16,12 +18,20 @@ https://tr-ua-pt.streamlit.app/
 <br>
   works without any troubles locally)*
 
-<br>
+<hr>
 
+Open a command prompt and `cd` to a new directory of your choosing:
+
+(optional; recommended) Create a virtual environment with:
+```
+python -m venv "venv"
+venv\Scripts\activate
+```
 To use locally enter `git clone https://github.com/vluz/HelsinkiNLP-tests.git`
 <br>
 Then issue `pip install -r requirements.txt` and let it finish
 <br>
-Finally to run do `streamlit run trUAPT.py`
-<br>
+To run do `streamlit run trUAPT.py`
+<br>or<br>
+`streamlit run trENPT.py`
 It'll open the gui in your browser
